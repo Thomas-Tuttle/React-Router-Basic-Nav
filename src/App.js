@@ -1,11 +1,12 @@
 import React from 'react';
+import { Navigation } from './components';
 import './App.css';
-import { Home, About, Contact, Navigation } from './components';
 
-const App = () => (
-  <div>
-    <Navigation />
-  </div>
-);
+const Links = () => (
+  <Navigation>
 
-export default App;
+  </Navigation>
+)
+
+export default Links
+
